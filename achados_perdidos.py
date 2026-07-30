@@ -11,3 +11,4 @@ def main():
 mostrar_menu()
 opcao = input("\nEscolha uma opção: ")
 print("Você escolheu a opção:", opcao)
+main()
