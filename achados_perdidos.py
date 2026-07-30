@@ -28,3 +28,15 @@ print("3 - Excluir objeto")
 print("4 - Sair")
 
 # FUNÇÃO PRINCIPAL DO PROGRAMA
+def main():
+# Chama a função que mostra o menu.
+mostrar_menu()
+# Solicita que o usuário escolha uma opção.
+# A resposta digitada será armazenada na variável opcao.
+opcao = input("\nEscolha uma opção: ")
+# Mostra a opção digitada pelo usuário.
+print("Você escolheu a opção:", opcao)
+
+INÍCIO DO PROGRAMA
+# Chama a função principal e inicia o sistema.
+main()
