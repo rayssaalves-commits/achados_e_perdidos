@@ -13,6 +13,7 @@ opcao = input("\nEscolha uma opção: ")
 print("Você escolheu a opção:", opcao)
 main()
 
+# FUNÇÃO RESPONSÁVEL POR MOSTRAR O MENU
 def mostrar_menu():
 # Mostra uma linha em branco antes do menu.
 print("\n================================")
